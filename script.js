@@ -34,7 +34,7 @@ function atualizaJogo() {
   mostraPontos(pontosNegativos, 450, 40, 'red');
   verificaColisao();
   resetNavePosition();
-  moveAlien();  
+  pincel.drawImage(alien, xAlien, yAlien, 30, 30); 
 }
 
 setInterval(atualizaJogo, 20);
