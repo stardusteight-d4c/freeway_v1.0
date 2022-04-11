@@ -26,6 +26,7 @@ function limpaTela() {
 
 function atualizaJogo() {
   backgroundMusic.play();
+  backgroundMusic.loop = true;
   limpaTela();
   carregaCenario();
   moveNaves();
